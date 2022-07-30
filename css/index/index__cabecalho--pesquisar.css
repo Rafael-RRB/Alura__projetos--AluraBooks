@@ -1,0 +1,105 @@
+.cabecalho__pesquisar {
+    background: url(../../img/Frame_20.svg) no-repeat center / cover;
+    color: var(--cor__fonte--padrao2);
+    padding: 2rem;
+    text-align: center;
+}
+    .cabecalho__pesquisar--titulo {
+        font-weight: 700;
+        padding-bottom: 1rem;
+        font-size: 1.8rem;
+    }
+    .cabecalho__pesquisar--texto {
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+        padding-bottom: 2rem;
+        font-weight: 500;
+    }
+    .cabecalho__pesquisar--formulario {
+        width: 100%;
+    }
+        .pesquisar__formulario--label {
+            width: 100%;
+        }
+            .formulario__campo {
+                text-align: center;
+                width: 100%;
+                height: 4rem;
+                color: var(--cor__fonte--padrao2);
+                font-size: 1.2rem;
+                background: transparent;
+                border: 1px solid var(--cor__fonte--padrao2);
+                border-radius: 2rem;
+                box-sizing: border-box;
+            }
+            .formulario__campo::placeholder {
+                color: var(--cor__fonte--padrao2);
+                opacity: 1;
+                font-size: 1.2rem;
+                font-weight: 400;
+                background: url(../../img/Pesquisa.svg) no-repeat 1.5rem / 1.5rem;
+            }
+
+@media screen and (min-width: 320px) {
+    .cabecalho__pesquisar {
+        padding: 4rem 2rem;
+    }
+        .cabecalho__pesquisar--texto {
+            width: 75%;
+            margin: auto;
+        }
+    .formulario__campo {
+        font-size: 1.4rem;
+    }
+    .formulario__campo::placeholder {
+        font-size: 1.4rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .cabecalho__pesquisar {
+        padding: 6rem 2rem;
+    }
+        .cabecalho__pesquisar--titulo {
+            font-size: 3.6rem;
+        }
+    .formulario__campo {
+        width: 50%;
+        height: 5rem;
+        font-size: 1.6rem;
+    }
+    .formulario__campo::placeholder {
+        font-size: 1.6rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .cabecalho__pesquisar {
+        padding: 9rem 2rem;
+    }
+        .cabecalho__pesquisar--titulo {
+            font-size: 3.6rem;
+        }
+    .formulario__campo {
+        width: 50%;
+        height: 5rem;
+        font-size: 1.6rem;
+    }
+    .formulario__campo::placeholder {
+        font-size: 1.6rem;
+    }
+}
+@media screen and (min-width: 1240px) {
+    .cabecalho__pesquisar {
+        padding: 9rem 2rem;
+    }
+        .cabecalho__pesquisar--titulo {
+            font-size: 3.6rem;
+        }
+    .formulario__campo {
+        width: 50%;
+        height: 5rem;
+        font-size: 1.6rem;
+    }
+    .formulario__campo::placeholder {
+        font-size: 1.6rem;
+    }
+}

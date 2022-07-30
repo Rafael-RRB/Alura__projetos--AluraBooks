@@ -1,0 +1,56 @@
+:root {
+    --cor__fonte--padrao1: #000;
+    --cor__fonte--padrao2: #fff;
+    --cor__fonte--destaque: #EB9B00;
+    --cor__fonte--especial: #002F52;
+    --cor__fonte--submenu: #858585;
+    --cor__fundo--padrao1: #EBECEE;
+    --cor__fundo--padrao2: #fff;
+    --cor__fundo--destaque: #EB9B00;
+    --cor__fundo--especial: #002F52;
+}
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+}
+a {
+    height: 0px;
+}
+b {
+    font-weight: 700;
+}
+.escondido {
+    width: 0px;
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    opacity: 0;
+    position: absolute;
+}
+.inativo {
+    display: none;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.lowercase {
+    text-transform: lowercase;
+}
+.capitalize {
+    text-transform: capitalize;
+}
+
+@media screen and (min-width: 320px) {
+
+}
+@media screen and (min-width: 768px) {
+
+}
+@media screen and (min-width: 1024px) {
+
+}
+@media screen and (min-width: 1240px) {
+    
+}

@@ -1,0 +1,86 @@
+.rodape__cadastro-noticias {
+    padding: 0rem 1rem;
+  }
+    .rodape__cadastro-noticias--container {
+        text-align: left;
+    }
+    .rodape__cadastro-noticias--titulo {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+    }
+    .rodape__cadastro-noticias--texto {
+      font-weight: 400;
+      margin-bottom: 1.5rem;
+      line-height: 2rem;
+    }
+    .rodape__cadastro-noticias--input {
+      margin-bottom: 1.5rem;
+      width: 100%;
+      height: 4rem;
+      font-size: 1.6rem;
+      color: var(--cor__fonte--especial);
+      background: transparent;
+      border: 1px solid var(--cor__fonte--especial);
+      border-radius: 2rem;
+      box-sizing: border-box;
+    }
+      .rodape__cadastro-noticias--input::placeholder {
+        padding-left: 4rem;
+        color: var(--cor__fonte--especial);
+        opacity: 1;
+        font-size: 1.6rem;
+        font-weight: 500;
+        background: url(../../img/Email.svg) no-repeat 1rem;
+      }
+
+@media screen and (min-width: 320px) {
+
+}
+@media screen and (min-width: 768px) {
+    .rodape__cadastro-noticias {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0rem;
+      }
+        .rodape__cadastro-noticias--container {
+            width: 37.5%;
+        }
+        .rodape__cadastro-noticias--titulo {
+          font-size: 2.4rem;
+          font-weight: 500;
+          line-height: 1.5em;
+        }
+        .rodape__cadastro-noticias--texto {
+          font-weight: 400;
+          margin-bottom: 1.5rem;
+          line-height: 2rem;
+        }
+        .rodape__cadastro-noticias--input {
+          margin-bottom: 1.5rem;
+          width: 37.5%;
+          height: 4rem;
+          font-size: 1.6rem;
+          color: var(--cor__fonte--especial);
+          background: transparent;
+          border: 1px solid var(--cor__fonte--especial);
+          border-radius: 2rem;
+          box-sizing: border-box;
+        }
+          .rodape__cadastro-noticias--input::placeholder {
+            padding-left: 4rem;
+            color: var(--cor__fonte--especial);
+            opacity: 1;
+            font-size: 1.6rem;
+            font-weight: 500;
+            background: url(../../img/Email.svg) no-repeat 1rem;
+          }
+}
+@media screen and (min-width: 1024px) {
+
+}
+@media screen and (min-width: 1240px) {
+
+}
