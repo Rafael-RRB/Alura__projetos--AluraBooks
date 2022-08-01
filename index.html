@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="css/index/index__principal.css">
   <link rel="stylesheet" href="css/index/index__principal--carrossel.css">
   <link rel="stylesheet" href="css/index/index__principal--cartoes.css">
+  <link rel="stylesheet" href="css/index/index__principal--dupla-secao.css">
   <link rel="stylesheet" href="css/index/index__principal--topicos.css">
   <link rel="stylesheet" href="css/index/index__rodape.css">
   <link rel="stylesheet" href="css/index/index__rodape--conteudos-externos.css">
@@ -30,7 +31,7 @@
     <nav class="cabecalho__menu">
       <div class="cabecalho__menu--primario">
         <span class="cabecalho__menu--hamburger">
-          <button class="menu__hamburger--botao cabecalho__menu--icones"><img class="cabecalho__menu--icones"
+          <button class="menu__hamburger--botao"><img class="cabecalho__menu--icone-hamburger"
               src="img/Menu.svg" alt="Botão Menu"></button>
         </span>
         <a class="menu__primario--logo-link" href="../html/index.html">
@@ -38,6 +39,13 @@
           <p class="menu__primario--logo-texto"><b>Alura</b>Books</p>
         </a>
       </div>
+
+      <ul class="cabecalho__menu--meio">
+        <li class="menu__meio--item"><a href="" class="meio__item--link">categorias</a></li>
+        <li class="menu__meio--item"><a href="" class="meio__item--link">favoritos</a></li>
+        <li class="menu__meio--item"><a href="" class="meio__item--link">minha estante</a></li>
+      </ul>
+
       <div class="cabecalho__menu--secundario">
         <a href="#"><img class="cabecalho__menu--icones" src="img/Favoritos.svg" alt="Link Favoritos"></a>
         <a href="#"><img class="cabecalho__menu--icones" src="img/Compras.svg" alt="Link Compras"></a>
@@ -70,10 +78,12 @@
       <h1 class="cabecalho__pesquisar--titulo">Já sabe por onde começar?</h1>
       <p class="cabecalho__pesquisar--texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
       <form class="cabecalho__pesquisar--formulario" action="">
-        <label class="pesquisar__formulario--label">
-          <span class="escondido">Campo de pesquisa</span>
-          <input class="formulario__campo" type="text" placeholder="Qual será sua próxima leitura?">
-        </label>
+        <div class="pesquisar__formulario--container">
+          <img src="/img/Pesquisa.svg" alt="" class="pesquisar__formulario--icone">
+          <label class="pesquisar__formulario--label">
+              <input class="formulario__label--campo" type="text" placeholder="Qual será sua próxima leitura?">
+          </label>
+        </div>
       </form>
     </section>
   </header>
@@ -123,6 +133,55 @@
       </div>
     </section>
 
+    <section class="principal__dupla-secao">
+      <h2 class="carrossel__titulo">últimos lançamentos</h2>
+      <div class="principal__dupla-secao--divisor">
+        <section class="principal__dupla-secao--carrossel dupla-secao__divisor--container">
+        
+          <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+    
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="img/ApacheKafka.png " alt=""></div>
+              <div class="swiper-slide"><img src="img/Liderança.png" alt=""></div>
+              <div class="swiper-slide"><img src="img/Javascript.png" alt=""></div>
+              <div class="swiper-slide"><img src="img/Guia Front-end.png" alt=""></div>
+              ...
+            </div>
+    
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+    
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+        </section>
+    
+        <section class="principal__dupla-secao--cartao dupla-secao__divisor--container">
+          <div class="cartao__divisao-primaria">
+            <div class="divisao-primaria__descricao">
+              <h2 class="divisao-primaria__descricao--sugestao">Talvez você também se interesse por...</h2>
+              <h3 class="divisao-primaria__descricao--titulo">Angular 11 & Firebase</h3>
+              <p class="divisao-primaria__descricao--texto">Construindo uma aplicação integrada com a plataforma do Google.
+              </p>
+            </div>
+            <img src="img/Angular.png" alt="Angular 11 e Firebase" class="cartao__divisao-primaria--imagem">
+          </div>
+          <div class="cartao__divisao-secundaria">
+            <ul class="divisao-secundaria__botoes">
+              <li class="botoes__item"><img class="botoes__item--imagem" src="img/Favoritos.svg" alt=""></li>
+              <li class="botoes__item"><img class="botoes__item--imagem" src="img/Compras.svg" alt=""></li>
+            </ul>
+            <a href="#" class="divisao-secundaria__saiba-mais">Saiba mais</a>
+          </div>
+        </section>  
+      </div>
+    </section>
+
     <section class="principal__carrossel">
       <h2 class="carrossel__titulo">mais vendidos</h2>
       <div class="swiper">
@@ -147,7 +206,6 @@
         <div class="swiper-scrollbar"></div>
       </div>
     </section>
-
     <section class="principal__cartao">
       <div class="cartao__divisao-primaria">
         <div class="divisao-primaria__descricao">
@@ -167,6 +225,54 @@
       </div>
     </section>
 
+    <section class="principal__dupla-secao">
+      <h2 class="carrossel__titulo">mais vendidos</h2>
+      <div class="principal__dupla-secao--divisor">
+        <section class="principal__dupla-secao--carrossel dupla-secao__divisor--container">
+          <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+    
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="img/Javascript.png" alt=""></div>
+              <div class="swiper-slide"><img src="img/ApacheKafka.png" alt=""></div>
+              <div class="swiper-slide"><img src="img/Liderança.png" alt=""></div>
+              <div class="swiper-slide"><img src="img/Guia Front-end.png" alt=""></div>
+              ...
+            </div>
+    
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+    
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+        </section>
+        <section class="principal__dupla-secao--cartao dupla-secao__divisor--container">
+          <div class="cartao__divisao-primaria">
+            <div class="divisao-primaria__descricao">
+              <h2 class="divisao-primaria__descricao--sugestao">★ ★ ★ ★ ★<br> Autora do Mês</h2>
+              <h3 class="divisao-primaria__descricao--titulo">juliana agarikov</h3>
+              <p class="divisao-primaria__descricao--texto">Analista de sistemas e escritora, Juliana é especialista em
+                Front-End.</p>
+            </div>
+            <img src="img/Perfil-escritora_1.png" alt="Autora do mês, Juliana Agarikov" class="cartao__divisao-primaria--imagem">
+          </div>
+          <div class="cartao__divisao-secundaria">
+            <ul class="divisao-secundaria__botoes">
+              <li class="botoes__item"><img class="botoes__item--imagem" src="img/Favoritos.svg" alt=""></li>
+              <li class="botoes__item"><img class="botoes__item--imagem" src="img/Compras.svg" alt=""></li>
+            </ul>
+            <a href="#" class="divisao-secundaria__saiba-mais">Saiba mais</a>
+          </div>
+        </section>
+      </div>
+    </section>
+
+
     <section class="principal__topicos">
       <h2 class="principal__topicos--titulo">tópicos visitados recentemente</h2>
       <ul class="principal__topicos--lista">
@@ -174,7 +280,7 @@
         <li class="topicos__lista--item"><a href="#" class="lista__item--link">marketing digital</a></li>
         <li class="topicos__lista--item"><a href="#" class="lista__item--link">agile</a></li>
         <li class="topicos__lista--item"><a href="#" class="lista__item--link">startups</a></li>
-        <li class="topicos__lista--item"><a href="#" class="lista__item--link">html & css</a></li>
+        <li class="topicos__lista--item"><a href="#" class="lista__item--link"><span class="uppercase">html & css</span></a></li>
         <li class="topicos__lista--item"><a href="#" class="lista__item--link">python</a></li>
         <li class="topicos__lista--item"><a href="#" class="lista__item--link">oo</a></li>
         <li class="topicos__lista--item"><a href="#" class="lista__item--link">java</a></li>
@@ -188,7 +294,14 @@
         <h2 class="rodape__cadastro-noticias--titulo">Fique por dentro das novidades!</h2>
         <p class="rodape__cadastro-noticias--texto">Atualizações de e-books, novos livros, promoções e outros.</p>
       </div>
-      <input type="text" class="rodape__cadastro-noticias--input" placeholder="Cadastre seu e-mail">
+      <form class="rodape__cadastro-noticias--formulario">
+        <div class="cadastro-noticias__input-email--container">
+          <img src="/img/Email.svg" alt="" class="input-email__container--icone">
+          <label class="input-email__container--label">
+              <input class="container__label--campo" type="text" placeholder="Qual será sua próxima leitura?">
+          </label>
+        </div>
+      </form>
     </section>
     <hr class="rodape__divisor">
     <section class="rodape__conteudos-externos">
@@ -227,13 +340,35 @@
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <script>
     const swiper = new Swiper('.swiper', {
-      spaceBetween: ((screen.width - 280) / 10 + 10),
-      slidesPerView: ((screen.width - 280) / 400 + 1.5),
+      spaceBetween: 10,
+      slidesPerView: 1.5,
       centeredSlides: true,
       observer: true,
       observeParents: true,
       parallax:true,
       simulateTouch:true,
+      breakpoints: {
+        428: {
+          spaceBetween: 10,
+          slidesPerView: 1.5,
+        },
+        768: {
+          spaceBetween: 10,
+          slidesPerView: 2.5,
+        },
+        1024: {
+          spaceBetween: 10,
+          slidesPerView: 3,
+        },
+        1240: {
+          spaceBetween: 10,
+          slidesPerView: 2.25,
+        },
+        1768: {
+          spaceBetween: 10,
+          slidesPerView: 3,
+        },
+      },
       pagination: {
         el: '.swiper-pagination',
         type: 'bullets',

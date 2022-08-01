@@ -9,6 +9,12 @@
     --cor__fundo--destaque: #EB9B00;
     --cor__fundo--especial: #002F52;
 }
+.teste {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100vw;
+}
 html {
     font-family: 'Poppins', sans-serif;
     font-size: 10px;
@@ -42,7 +48,7 @@ b {
     text-transform: capitalize;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 428px) {
 
 }
 @media screen and (min-width: 768px) {

@@ -1,3 +1,73 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M15.5 14H14.71L14.43 13.73C15.41 12.59 16 11.11 16 9.5C16 5.91 13.09 3 9.5 3C5.91 3 3 5.91 3 9.5C3 13.09 5.91 16 9.5 16C11.11 16 12.59 15.41 13.73 14.43L14 14.71V15.5L19 20.49L20.49 19L15.5 14ZM9.5 14C7.01 14 5 11.99 5 9.5C5 7.01 7.01 5 9.5 5C11.99 5 14 7.01 14 9.5C14 11.99 11.99 14 9.5 14Z" fill="white"/>
-</svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="50"
+   height="50"
+   viewBox="0 0 50 50"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="Pesquisa.svg"
+   xml:space="preserve"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview23545"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="8"
+     inkscape:cx="16.75"
+     inkscape:cy="29.125"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g11662" /><defs
+     id="defs23540"><linearGradient
+       id="paint0_linear_802_508"
+       x1="20"
+       y1="0"
+       x2="20"
+       y2="40"
+       gradientUnits="userSpaceOnUse"><stop
+         offset="0.677083"
+         stop-color="#FD8325"
+         id="stop11842" /><stop
+         offset="1"
+         stop-color="#FC6621"
+         id="stop11844" /></linearGradient><linearGradient
+       id="paint0_linear_126_4585"
+       x1="33.4259"
+       y1="-9.60003"
+       x2="149.059"
+       y2="5.71112"
+       gradientUnits="userSpaceOnUse"><stop
+         stop-color="#002F52"
+         id="stop8006" /><stop
+         offset="1"
+         stop-color="#326589"
+         id="stop8008" /></linearGradient></defs><g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"><g
+       style="fill:none;stroke-width:0.999703;stroke-dasharray:none"
+       id="g27336"
+       transform="matrix(1.3888889,0,0,1.6666667,-8.3333336,-15.000001)"
+       inkscape:highlight-color="#ffffff"><g
+         style="fill:none"
+         id="g11662"
+         transform="matrix(0.71999999,0,0,0.59999999,18.6936,17.103)"><path
+           d="M 18.104706,17.941541 H 15.846272 L 15.045815,17.169672 C 17.847416,13.910667 19.534094,9.6796776 19.534094,5.0770477 19.534094,-5.1859608 11.215055,-13.505 0.95204704,-13.505 -9.3109605,-13.505 -17.63,-5.1859608 -17.63,5.0770477 c 0,10.2630073 8.3190395,18.5820463 18.58204704,18.5820463 4.60263006,0 8.83361926,-1.686678 12.09262396,-4.488279 l 0.77187,0.800458 v 2.258433 L 28.110423,36.495 32.37,32.235423 Z m -17.15265896,0 c -7.11835344,0 -12.86449404,-5.74614 -12.86449404,-12.8644933 0,-7.1183531 5.7461406,-12.864495 12.86449404,-12.864495 7.11835336,0 12.86449396,5.7461419 12.86449396,12.864495 0,7.1183533 -5.7461406,12.8644933 -12.86449396,12.8644933 z"
+           fill="#ffffff"
+           id="path11653"
+           style="fill:#ffffff;fill-opacity:1;stroke-width:2.85793" /></g></g></g></svg>

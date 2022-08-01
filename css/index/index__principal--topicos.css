@@ -1,5 +1,5 @@
 .principal__topicos {
-  padding: 3rem 0rem 2rem 0rem;
+  padding: 3rem 1rem 2rem 1rem;
   color: var(--cor__fonte--padrao2);
   background: url(../../img/Frame_20.svg) no-repeat center / cover;
   box-sizing: border-box;
@@ -34,19 +34,25 @@
         text-decoration: none;
       }
       
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 428px) {
   
 }
 @media screen and (min-width: 768px) {
   .principal__topicos--lista {
-    width: 55%;
+    width: 75%;
     margin: auto;
   }
 }
 @media screen and (min-width: 1024px) {
-
+  .principal__topicos--lista {
+    width: 60%;
+    margin: auto;
+  }
 }
 @media screen and (min-width: 1240px) {
-
+  .principal__topicos--lista {
+    width: 45%;
+    margin: auto;
+  }
 }
       

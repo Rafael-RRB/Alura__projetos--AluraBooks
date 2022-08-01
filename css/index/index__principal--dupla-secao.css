@@ -1,0 +1,33 @@
+.principal__dupla-secao {
+  display: none;
+  width: 100%;
+}
+  .principal__dupla-secao--carrossel {
+    margin-bottom: 6rem;
+  }
+  .principal__dupla-secao--cartao {
+    width: 90vw;
+    max-width: 588px;
+    margin: auto auto 2.5rem auto;
+    padding: 2rem 1.5rem;
+    border-radius: 1rem;
+    background-color: var(--cor__fundo--padrao2);
+    box-sizing: border-box;
+    box-shadow: 0rem .25rem .25rem .25rem #00000021;
+  }
+  .principal__dupla-secao--divisor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 4rem 0rem 6rem 0rem;
+  }
+  section .dupla-secao__divisor--container {
+    width: 50%;
+    margin: auto;
+  }
+
+@media screen and (min-width: 1240px) {
+  .principal__dupla-secao {
+    display: initial;
+  }
+}

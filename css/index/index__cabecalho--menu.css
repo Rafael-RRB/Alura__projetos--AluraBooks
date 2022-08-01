@@ -5,6 +5,7 @@
     justify-content: space-between;
     background-color: var(--cor__fundo--padrao2);
     width: 100vw;
+    height: 60px;
     padding: 0rem;
     position: fixed;
     top: 0;
@@ -12,17 +13,22 @@
 }
     .cabecalho__menu--icones {
         height: 100%;
+        padding: .5rem;
+        box-sizing: border-box;
+    }
+    .cabecalho__menu--icone-hamburger {
+      height: 100%;
+      box-sizing: border-box;
     }
     .cabecalho__menu--hamburger {
-        height: 4rem;
-        width: 4rem;
+        height: 100%;
         background: #fff no-repeat center / cover;
         padding: 1rem;
+        box-sizing: border-box;
     }
         .cabecalho__menu--hamburger.ativo {
             background: url(../../img/Frame_20.svg) no-repeat center / cover;
         }
-        
         .menu__hamburger--botao {
             padding: 0rem;
             margin: 0rem;
@@ -36,6 +42,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+        height: 100%;
     }
         .cabecalho__menu--primario a {
             display: flex;
@@ -45,62 +52,73 @@
             font-size: 3rem;
         }
         .menu__primario--logo {
-            padding: 1rem;
+            padding: 1rem .5rem;
+            box-sizing: border-box;
         }
         .menu__primario--logo-link {
-            height: auto;
+            height: 100%;
         }
         .menu__primario--logo-texto {
             display: none;
             color: var(--cor__fonte--padrao1);
         }
+    
+    .cabecalho__menu--meio {
+      display: none;
+    }
+      .menu__meio--item {
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 0rem 2rem;
+      }
+      .meio__item--link {
+        color: var(--cor__fonte--padrao1);
+        text-decoration: none;
+        font-size: 1.6rem;
+        font-weight: 500;
+      }
 
     .cabecalho__menu--secundario {
         display: flex;
         flex-direction: row;
         align-items: center;
-        height: 60px;
-        padding: 1rem;
+        justify-content: space-between;
+        padding: 0rem .5rem;
+        height: 100%;
         box-sizing: border-box;
     }
         .cabecalho__menu--secundario a {
-            height: 4rem;
+            display: flex;
+            align-items: center;
+            height: 75%;
         }
-            .cabecalho__menu--secundario a img {
-                padding: 0rem;
-            }
 
-@media screen and (min-width: 320px) {
-    
-        .cabecalho__menu--icones {
+@media screen and (min-width: 428px) {
+  .cabecalho__menu {
+    height: 80px;
+  }
+    .cabecalho__menu--icones {
+        height: 75%;
+        padding: .5rem 1rem;
+    }
+    .cabecalho__menu--hamburger {
+        height: 100%;
+        background: #fff no-repeat center / cover;
+        padding: 1.5rem;
+    }
+        .menu__primario--logo {
+            padding: .5rem 1rem;
+        }
+    .cabecalho__menu--secundario {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0rem 1rem;
+        box-sizing: border-box;
+    }
+        .cabecalho__menu--secundario a {
             height: 100%;
         }
-        .cabecalho__menu--hamburger {
-            height: 4rem;
-            width: 4rem;
-            background: #fff no-repeat center / cover;
-            padding: 2rem;
-        }
-            .menu__primario--logo {
-                padding: 2rem 1rem;
-            }
-            .menu__primario--logo-link {
-                height: fit-content;
-            }    
-        .cabecalho__menu--secundario {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            height: 80px;
-            padding: 1rem 1.5rem;
-            box-sizing: border-box;
-        }
-            .cabecalho__menu--secundario a {
-                height:5rem;
-            }
-                .cabecalho__menu--secundario a img {
-                    padding: 0rem 0rem;
-                }
 }
 @media screen and (min-width: 768px) {
     .menu__primario--logo-texto {
@@ -109,8 +127,35 @@
     }
 }
 @media screen and (min-width: 1024px) {
+  .cabecalho__menu {
+    justify-content: space-around;
+  }
+    .cabecalho__menu--icones {
+      padding: 1rem;
+    }
+    .menu__primario--logo {
+      padding: 1rem;
+    }
+    .cabecalho__menu--hamburger {
+      display: none;
+    }
+    .cabecalho__menu--meio {
+      display: inline-block;
+    }
+    .cabecalho__menu--secundario {
+      min-width: 15%;
+      padding: 0rem;
+    }
+      .cabecalho__menu--secundario a:first-child {
+        display: none;
+      }
 
 }
 @media screen and (min-width: 1240px) {
-
+  .cabecalho__menu {
+    height: 5rem;
+  }
+    .cabecalho__menu--icones {
+      height: 100%;
+  }
 }

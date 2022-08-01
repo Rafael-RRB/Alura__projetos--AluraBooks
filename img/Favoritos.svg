@@ -1,9 +1,58 @@
-<svg width="51" height="48" viewBox="0 0 51 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M33.4087 8C30.3743 8 27.4621 9.41253 25.5613 11.6447C23.6604 9.41253 20.7482 8 17.7138 8C12.3427 8 8.12256 12.2202 8.12256 17.5913C8.12256 24.1831 14.0517 29.5542 23.0326 37.7155L25.5613 40L28.0899 37.6981C37.0708 29.5542 42.9999 24.1831 42.9999 17.5913C42.9999 12.2202 38.7798 8 33.4087 8ZM25.7356 35.1172L25.5613 35.2916L25.3869 35.1172C17.086 27.6011 11.6103 22.6311 11.6103 17.5913C11.6103 14.1035 14.2261 11.4877 17.7138 11.4877C20.3994 11.4877 23.0152 13.2142 23.9395 15.6033H27.2005C28.1073 13.2142 30.7231 11.4877 33.4087 11.4877C36.8964 11.4877 39.5122 14.1035 39.5122 17.5913C39.5122 22.6311 34.0365 27.6011 25.7356 35.1172Z" fill="url(#paint0_linear_802_512)"/>
-<defs>
-<linearGradient id="paint0_linear_802_512" x1="22.6952" y1="4.15999" x2="72.9448" y2="11.4119" gradientUnits="userSpaceOnUse">
-<stop stop-color="#002F52"/>
-<stop offset="1" stop-color="#326589"/>
-</linearGradient>
-</defs>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="50"
+   height="50"
+   viewBox="0 0 50 50"
+   fill="none"
+   version="1.1"
+   id="svg1798"
+   sodipodi:docname="Favoritos.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1800"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="8"
+     inkscape:cx="30.125"
+     inkscape:cy="29.875"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1798" />
+  <path
+     d="M 36.250098,0 C 31.899996,0 27.725079,2.2070781 25.0001,5.6948437 22.274979,2.2070781 18.100062,0 13.749959,0 6.049974,0 0,6.5940625 0,14.986406 0,25.286094 8.4999888,33.678437 21.374967,46.430469 L 25.0001,50 28.62509,46.403281 C 41.500069,33.678437 50,25.286094 50,14.986406 50,6.5940625 43.950083,0 36.250098,0 Z m -11.000122,42.370625 -0.249876,0.2725 -0.250019,-0.2725 C 12.849948,30.626719 5.0000086,22.861094 5.0000086,14.986406 c 0,-5.4496872 3.7499993,-9.5368747 8.7499504,-9.5368747 3.850064,0 7.600064,2.6976562 8.925136,6.4306247 h 4.674955 c 1.299985,-3.7329685 5.049984,-6.4306247 8.900048,-6.4306247 4.999951,0 8.749951,4.0871875 8.749951,9.5368747 0,7.874688 -7.84994,15.640313 -19.750073,27.384219 z"
+     fill="url(#paint0_linear_802_512)"
+     id="path1789"
+     style="fill:url(#paint0_linear_802_512);stroke-width:1.49666" />
+  <defs
+     id="defs1796">
+    <linearGradient
+       id="paint0_linear_802_512"
+       x1="22.6952"
+       y1="4.1599898"
+       x2="72.944801"
+       y2="11.4119"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.4335956,0,0,1.5625,-11.644466,-12.5)">
+      <stop
+         stop-color="#002F52"
+         id="stop1791" />
+      <stop
+         offset="1"
+         stop-color="#326589"
+         id="stop1793" />
+    </linearGradient>
+  </defs>
 </svg>

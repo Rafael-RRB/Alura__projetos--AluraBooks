@@ -1,3 +1,55 @@
-<svg width="54" height="50" viewBox="0 0 54 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M36.5002 13.4993H33.3335C33.3335 10.0002 30.4993 7.16602 27.0002 7.16602C23.501 7.16602 20.6668 10.0002 20.6668 13.4993H17.5002C15.7585 13.4993 14.3335 14.9243 14.3335 16.666V35.666C14.3335 37.4077 15.7585 38.8327 17.5002 38.8327H36.5002C38.2418 38.8327 39.6668 37.4077 39.6668 35.666V16.666C39.6668 14.9243 38.2418 13.4993 36.5002 13.4993ZM27.0002 10.3327C28.7418 10.3327 30.1668 11.7577 30.1668 13.4993H23.8335C23.8335 11.7577 25.2585 10.3327 27.0002 10.3327ZM36.5002 35.666H17.5002V16.666H20.6668V19.8327C20.6668 20.7035 21.3793 21.416 22.2502 21.416C23.121 21.416 23.8335 20.7035 23.8335 19.8327V16.666H30.1668V19.8327C30.1668 20.7035 30.8793 21.416 31.7502 21.416C32.621 21.416 33.3335 20.7035 33.3335 19.8327V16.666H36.5002V35.666Z" fill="#002F52"/>
-</svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="40px"
+   height="50px"
+   viewBox="0 0 40 50"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="Compras.svg"
+   xml:space="preserve"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview23545"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="4"
+     inkscape:cx="25.75"
+     inkscape:cy="46.75"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" /><defs
+     id="defs23540"><linearGradient
+       id="paint0_linear_802_508"
+       x1="20"
+       y1="0"
+       x2="20"
+       y2="40"
+       gradientUnits="userSpaceOnUse"><stop
+         offset="0.677083"
+         stop-color="#FD8325"
+         id="stop11842" /><stop
+         offset="1"
+         stop-color="#FC6621"
+         id="stop11844" /></linearGradient></defs><g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"><path
+       d="M 35.000098,9.9999117 H 30.000039 C 30.000039,4.4750187 25.524981,0 20.000078,0 14.475018,0 9.99996,4.4750187 9.99996,9.9999117 H 5.0000592 C 2.2500032,9.9999117 0,12.249911 0,14.999963 V 44.99995 c 0,2.750051 2.2500032,5.000051 5.0000592,5.000051 H 35.000098 C 37.749997,50.000001 40,47.750001 40,44.99995 V 14.999963 C 40,12.249911 37.749997,9.9999117 35.000098,9.9999117 Z m -15.00002,-4.999893 c 2.749899,0 4.999902,2.249999 4.999902,4.999893 h -9.999961 c 0,-2.749894 2.250003,-4.999893 5.000059,-4.999893 z M 35.000098,44.99995 H 5.0000592 V 14.999963 H 9.99996 v 5.00005 c 0,1.374947 1.125002,2.499947 2.500109,2.499947 1.374949,0 2.49995,-1.125 2.49995,-2.499947 v -5.00005 h 9.999961 v 5.00005 c 0,1.374947 1.125002,2.499947 2.500109,2.499947 1.374949,0 2.49995,-1.125 2.49995,-2.499947 v -5.00005 h 5.000059 z"
+       fill="#002f52"
+       id="path21341"
+       style="stroke-width:1.57895" /></g></svg>

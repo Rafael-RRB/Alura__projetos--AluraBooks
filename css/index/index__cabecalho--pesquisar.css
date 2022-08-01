@@ -16,31 +16,52 @@
         font-weight: 500;
     }
     .cabecalho__pesquisar--formulario {
-        width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+      height: 4rem;
+      color: var(--cor__fonte--padrao2);
+      font-size: 1.2rem;
+      background: transparent;
+      border: 1px solid var(--cor__fonte--padrao2);
+      border-radius: 3rem;
+      box-sizing: border-box;
     }
-        .pesquisar__formulario--label {
-            width: 100%;
+        .pesquisar__formulario--container {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          width: 100%;
         }
-            .formulario__campo {
-                text-align: center;
-                width: 100%;
-                height: 4rem;
-                color: var(--cor__fonte--padrao2);
-                font-size: 1.2rem;
-                background: transparent;
-                border: 1px solid var(--cor__fonte--padrao2);
-                border-radius: 2rem;
-                box-sizing: border-box;
+        .pesquisar__formulario--label {
+          width: 100%;
+          padding-right: 1em;
+          height: auto;
+        }
+          .formulario__label--campo {
+              width: 100%;
+              border: none;
+              outline: none;
+              background: none;
+              padding: 0rem;
+              color: var(--cor__fonte--padrao2);
+              font-size: 1.2rem;
+              font-weight: 400;
+              box-sizing: border-box;
             }
-            .formulario__campo::placeholder {
-                color: var(--cor__fonte--padrao2);
-                opacity: 1;
-                font-size: 1.2rem;
-                font-weight: 400;
-                background: url(../../img/Pesquisa.svg) no-repeat 1.5rem / 1.5rem;
+            .formulario__label--campo::placeholder {
+              color: var(--cor__fonte--padrao2);
+              opacity: 1;
+              font-size: 1.2rem;
+              font-weight: 400;
             }
+        .pesquisar__formulario--icone {
+          padding: 0em 1em;
+          height: 2em;
+        }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 428px) {
     .cabecalho__pesquisar {
         padding: 4rem 2rem;
     }
@@ -48,28 +69,32 @@
             width: 75%;
             margin: auto;
         }
-    .formulario__campo {
-        font-size: 1.4rem;
-    }
-    .formulario__campo::placeholder {
-        font-size: 1.4rem;
-    }
+        .pesquisar__formulario--container {
+          font-size: 1.4rem;
+        }        
+        .formulario__label--campo::placeholder {
+          font-size: 1.4rem;
+        }
 }
 @media screen and (min-width: 768px) {
+    
     .cabecalho__pesquisar {
         padding: 6rem 2rem;
     }
-        .cabecalho__pesquisar--titulo {
-            font-size: 3.6rem;
+      .cabecalho__pesquisar--titulo {
+          font-size: 3.6rem;
+      }
+      .cabecalho__pesquisar--formulario {
+        width: 75%;
+        margin: auto;
+      }
+        .formulario__label--campo {
+            height: 5rem;
+            font-size: 1.6rem;
         }
-    .formulario__campo {
-        width: 50%;
-        height: 5rem;
-        font-size: 1.6rem;
-    }
-    .formulario__campo::placeholder {
-        font-size: 1.6rem;
-    }
+        .formulario__label--campo::placeholder {
+            font-size: 1.6rem;
+        }
 }
 @media screen and (min-width: 1024px) {
     .cabecalho__pesquisar {
@@ -78,14 +103,11 @@
         .cabecalho__pesquisar--titulo {
             font-size: 3.6rem;
         }
-    .formulario__campo {
-        width: 50%;
-        height: 5rem;
-        font-size: 1.6rem;
-    }
-    .formulario__campo::placeholder {
-        font-size: 1.6rem;
-    }
+        .cabecalho__pesquisar--formulario {
+          width: 50%;
+          height: 6rem;
+          margin: auto;
+        }
 }
 @media screen and (min-width: 1240px) {
     .cabecalho__pesquisar {
@@ -94,12 +116,4 @@
         .cabecalho__pesquisar--titulo {
             font-size: 3.6rem;
         }
-    .formulario__campo {
-        width: 50%;
-        height: 5rem;
-        font-size: 1.6rem;
-    }
-    .formulario__campo::placeholder {
-        font-size: 1.6rem;
-    }
 }

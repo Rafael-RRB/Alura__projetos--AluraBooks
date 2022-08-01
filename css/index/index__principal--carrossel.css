@@ -26,7 +26,7 @@
       display: none;
     }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 428px) {
     .principal__carrossel {
         margin-bottom: 2.5rem;
       }
@@ -58,5 +58,12 @@
         
 }
 @media screen and (min-width: 1240px) {
-
+  .principal__carrossel {
+    display: none;
+  }
+  .swiper-slide img {
+    width: 246px;
+    height: 345px;
+    image-rendering: pixelated;
+  }
 }

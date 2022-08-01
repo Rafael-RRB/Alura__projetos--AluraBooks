@@ -52,7 +52,8 @@
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    box-sizing: border-box;
   }
     .divisao-secundaria__botoes {
       display: flex;
@@ -60,10 +61,12 @@
       width: 60%;
     }
       .botoes__item {
-        height: 4rem;
+        height: 3rem;
+        box-sizing: border-box;
       }
       .botoes__item--imagem {
         height: inherit;
+        padding: 1rem;
       }
     .divisao-secundaria__saiba-mais {
       display: flex;
@@ -81,7 +84,7 @@
       box-sizing: border-box;
     }
     
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 428px) {
   .principal__cartao {
     width: 90vw;
     margin: auto auto 2.5rem auto;
@@ -128,8 +131,10 @@
     }
 }
 @media screen and (min-width: 1240px) {
+  .principal__cartao {
+    display: none;
+  }
   .cartao__divisao-primaria--imagem {
     margin-bottom: 2.5rem;
   }
-
 }

@@ -9,7 +9,7 @@ botaoHamburger.addEventListener("click", (evento) => {
         cabecalhoSubmenu.classList.remove("inativo");
         cabecalhoMenuHamburger.classList.add("ativo");
         botaoHamburger.classList.add("ativo");
-        hamburgerImagem.src = "../img/menu_black_24dp_1.png";
+        hamburgerImagem.src = "../img/menu_black_24dp_1.svg";
     } else {
         cabecalhoSubmenu.classList.add("inativo");
         cabecalhoMenuHamburger.classList.remove("ativo");
