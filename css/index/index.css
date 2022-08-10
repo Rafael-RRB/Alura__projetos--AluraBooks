@@ -4,14 +4,11 @@ body {
 html {
     font-family: 'Poppins', sans-serif;
     font-size: 10px;
-    padding-top: 60px;
     background-color: var(--cor__fundo--padrao2);
 }
 
 @media screen and (min-width: 428px) {
-    html {
-        padding-top: 80px;
-    }
+
 }
 @media screen and (min-width: 768px) {
 
@@ -22,6 +19,5 @@ html {
 @media screen and (min-width: 1280px) {
     html {
         font-size: .75vw;
-        padding-top: 6.25rem;
     }
 }

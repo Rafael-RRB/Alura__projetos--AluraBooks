@@ -1,7 +1,7 @@
 .cabecalho__pesquisar {
     background: url(../../img/Frame_20.svg) no-repeat center / cover;
     color: var(--cor__fonte--padrao2);
-    padding: 2rem;
+    padding: 8rem 2rem 2rem 2rem;
     text-align: center;
 }
     .cabecalho__pesquisar--titulo {
@@ -63,7 +63,7 @@
 
 @media screen and (min-width: 428px) {
     .cabecalho__pesquisar {
-        padding: 4rem 2rem;
+        padding: 12rem 2rem 4rem 2rem;
     }
         .cabecalho__pesquisar--texto {
             width: 75%;
@@ -79,7 +79,7 @@
 @media screen and (min-width: 768px) {
     
     .cabecalho__pesquisar {
-        padding: 6rem 2rem;
+        padding: 14rem 2rem 6rem 2rem;
     }
       .cabecalho__pesquisar--titulo {
           font-size: 3.6rem;
@@ -98,7 +98,7 @@
 }
 @media screen and (min-width: 1024px) {
     .cabecalho__pesquisar {
-        padding: 9rem 2rem;
+        padding: 17rem 2rem 9rem 2rem;
     }
         .cabecalho__pesquisar--titulo {
             font-size: 3.6rem;
@@ -111,7 +111,7 @@
 }
 @media screen and (min-width: 1280px) {
     .cabecalho__pesquisar {
-        padding: 9rem 2rem;
+        padding: 15.25rem 2rem 9rem 2rem;
     }
         .cabecalho__pesquisar--titulo {
             font-size: 3.6rem;

@@ -1,6 +1,6 @@
 .cabecalho__submenu {
     width: 100vw;
-    max-height: 60vh;
+    max-height: 65vh;
     font-size: 1.8rem;
     font-weight: 500;
     box-sizing: border-box;
@@ -120,7 +120,7 @@
     }
 }
 @media screen and (min-width: 1024px) {
-
+    
 }
 @media screen and (min-width: 1280px) {
     .cabecalho__submenu {

@@ -4,6 +4,9 @@ const cabecalhoMenuHamburger = document.querySelector(".cabecalho__menu--hamburg
 const botaoHamburger = document.querySelector(".menu__hamburger--botao");
 const hamburgerImagem = document.querySelector(".menu__hamburger--botao img");
 
+const submenuHamburger = document.querySelector(".cabecalho__submenu");
+const submenuMenuMeio = document.querySelector(".menu__meio--submenu");
+
 var telaPosY = 0;
 
 botaoHamburger.addEventListener("click", (evento) => {
@@ -24,10 +27,13 @@ botaoHamburger.addEventListener("click", (evento) => {
 window.addEventListener("scroll", event => {
   telaPosYAntigo = telaPosY;
   telaPosY = window.pageYOffset;
-  telaHTMLPaddingTop = parseInt(getComputedStyle(document.querySelector("html")).paddingTop);
-  if(telaPosY > telaPosYAntigo && telaPosY > telaHTMLPaddingTop) {
-    cabecalho.classList.add("cabecalho__menu-dinamico");
-  } else if (telaPosY < telaPosYAntigo) {
-    cabecalho.classList.remove("cabecalho__menu-dinamico");
+  telaHeaderAltura = parseInt(getComputedStyle(document.querySelector(".cabecalho__menu")).height);
+  
+  if(getComputedStyle(submenuHamburger).display === "none" && getComputedStyle(submenuMenuMeio).display === "none") {
+    if(telaPosY > telaPosYAntigo && telaPosY > telaHeaderAltura) {
+      cabecalho.classList.add("cabecalho__menu-esconde");
+    } else if (telaPosY < telaPosYAntigo) {
+      cabecalho.classList.remove("cabecalho__menu-esconde");
+    }
   }
 });

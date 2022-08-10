@@ -12,10 +12,10 @@
     position: fixed;
     top: 0;
     z-index: 3;
-    transition: all 500ms;
+    transition: top ease-in-out 500ms;
 }
-    .cabecalho__menu-dinamico {
-      top: -100%;
+    .cabecalho__menu-esconde {
+      top: -50%;
     }
     .cabecalho__menu--icones {
         height: 100%;
@@ -76,6 +76,7 @@
     }
       .menu__meio--categorias {
         height: inherit;
+        cursor: pointer;
       }
       .menu__meio--categorias:hover,
       .menu__meio--categorias:focus-within {
