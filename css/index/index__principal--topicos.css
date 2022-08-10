@@ -9,6 +9,7 @@
     font-weight: 300;
     text-transform: uppercase;
     margin-bottom: 3rem;
+    line-height: 2rem;
   }
   .principal__topicos--lista {
     text-align: center;
@@ -49,7 +50,7 @@
     margin: auto;
   }
 }
-@media screen and (min-width: 1240px) {
+@media screen and (min-width: 1280px) {
   .principal__topicos--lista {
     width: 45%;
     margin: auto;

@@ -33,46 +33,78 @@
         <span class="cabecalho__menu--hamburger">
           <button class="menu__hamburger--botao"><img class="cabecalho__menu--icone-hamburger"
               src="img/Menu.svg" alt="Botão Menu"></button>
+          <nav class="cabecalho__submenu inativo">
+            <ul class="cabecalho__submenu--lista">
+              <li class="submenu__lista--titulo">categorias</li>
+              <li class="submenu__lista--item">
+                <a class="lista__item--submenu-link" href="#">programação</a>
+              </li>
+              <li class="submenu__lista--item">
+                <a class="lista__item--submenu-link" href="#">front-end</a>
+              </li>
+              <li class="submenu__lista--item">
+                <a class="lista__item--submenu-link" href="#">infraestrutura</a>
+              </li>
+              <li class="submenu__lista--item">
+                <a class="lista__item--submenu-link" href="#">business</a>
+              </li>
+              <li class="submenu__lista--item">
+                <a class="lista__item--submenu-link" href="#">design & ux</a>
+              </li>
+            </ul>
+          </nav>
         </span>
-        <a class="menu__primario--logo-link" href="../html/index.html">
+        <a class="menu__primario--logo-link" href="index.html">
           <img src="img/Logo.svg" alt="" class="cabecalho__menu--icones menu__primario--logo">
           <p class="menu__primario--logo-texto"><b>Alura</b>Books</p>
         </a>
       </div>
 
       <ul class="cabecalho__menu--meio">
-        <li class="menu__meio--item"><a href="" class="meio__item--link">categorias</a></li>
+        <li tabindex="0" class="menu__meio--item menu__meio--categorias">
+          <p class="meio__item--link">categorias</p>
+          <div class="menu__meio--divisao">
+            <nav class="menu__meio--submenu">
+              <ul class="meio__submenu--lista">
+                <li class="submenu__lista--item-meio">
+                  <a class="lista__item-meio--submenu-link" href="#">programação</a>
+                </li>
+                <li class="submenu__lista--item-meio">
+                  <a class="lista__item-meio--submenu-link" href="#">front-end</a>
+                </li>
+                <li class="submenu__lista--item-meio">
+                  <a class="lista__item-meio--submenu-link" href="#">infraestrutura</a>
+                </li>
+                <li class="submenu__lista--item-meio">
+                  <a class="lista__item-meio--submenu-link" href="#">business</a>
+                </li>
+                <li class="submenu__lista--item-meio">
+                  <a class="lista__item-meio--submenu-link" href="#">design & ux</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </li>
         <li class="menu__meio--item"><a href="" class="meio__item--link">favoritos</a></li>
         <li class="menu__meio--item"><a href="" class="meio__item--link">minha estante</a></li>
       </ul>
 
+      
+
       <div class="cabecalho__menu--secundario">
-        <a href="#"><img class="cabecalho__menu--icones" src="img/Favoritos.svg" alt="Link Favoritos"></a>
-        <a href="#"><img class="cabecalho__menu--icones" src="img/Compras.svg" alt="Link Compras"></a>
-        <a href="#"><img class="cabecalho__menu--icones" src="img/Usuário.svg" alt="Link Usuário"></a>
+        <a class="menu__secundario--link" href="#"><img class="cabecalho__menu--icones" src="img/Favoritos.svg" alt="Link Favoritos"></a>
+        <a class="menu__secundario--link" href="#">
+          <img class="cabecalho__menu--icones" src="img/Compras.svg" alt="Link Compras">
+          <span class="menu__icones--texto"><span class="capitalize">minha</span> sacola</span>
+        </a>
+        <a class="menu__secundario--link" href="#">
+          <img class="cabecalho__menu--icones" src="img/Usuário.svg" alt="Link Usuário">
+          <span class="menu__icones--texto"><span class="capitalize">meu</span> perfil</span>
+        </a>
       </div>
     </nav>
 
-    <nav class="cabecalho__submenu inativo">
-      <ul class="cabecalho__submenu--lista">
-        <li class="submenu__lista--titulo">categorias</li>
-        <li class="submenu__lista--item">
-          <a class="lista__item--submenu-link" href="#">programação</a>
-        </li>
-        <li class="submenu__lista--item">
-          <a class="lista__item--submenu-link" href="#">front-end</a>
-        </li>
-        <li class="submenu__lista--item">
-          <a class="lista__item--submenu-link" href="#">infraestrutura</a>
-        </li>
-        <li class="submenu__lista--item">
-          <a class="lista__item--submenu-link" href="#">business</a>
-        </li>
-        <li class="submenu__lista--item">
-          <a class="lista__item--submenu-link" href="#">design & ux</a>
-        </li>
-      </ul>
-    </nav>
+    
 
     <section class="cabecalho__pesquisar">
       <h1 class="cabecalho__pesquisar--titulo">Já sabe por onde começar?</h1>
@@ -102,7 +134,6 @@
           <div class="swiper-slide"><img src="img/Liderança.png" alt=""></div>
           <div class="swiper-slide"><img src="img/Javascript.png" alt=""></div>
           <div class="swiper-slide"><img src="img/Guia Front-end.png" alt=""></div>
-          ...
         </div>
 
         <!-- If we need navigation buttons -->
@@ -149,7 +180,6 @@
               <div class="swiper-slide"><img src="img/Liderança.png" alt=""></div>
               <div class="swiper-slide"><img src="img/Javascript.png" alt=""></div>
               <div class="swiper-slide"><img src="img/Guia Front-end.png" alt=""></div>
-              ...
             </div>
     
             <!-- If we need navigation buttons -->
@@ -195,7 +225,6 @@
           <div class="swiper-slide"><img src="img/ApacheKafka.png" alt=""></div>
           <div class="swiper-slide"><img src="img/Liderança.png" alt=""></div>
           <div class="swiper-slide"><img src="img/Guia Front-end.png" alt=""></div>
-          ...
         </div>
 
         <!-- If we need navigation buttons -->
@@ -240,7 +269,6 @@
               <div class="swiper-slide"><img src="img/ApacheKafka.png" alt=""></div>
               <div class="swiper-slide"><img src="img/Liderança.png" alt=""></div>
               <div class="swiper-slide"><img src="img/Guia Front-end.png" alt=""></div>
-              ...
             </div>
     
             <!-- If we need navigation buttons -->
@@ -298,7 +326,7 @@
         <div class="cadastro-noticias__input-email--container">
           <img src="img/Email.svg" alt="" class="input-email__container--icone">
           <label class="input-email__container--label">
-              <input class="container__label--campo" type="text" placeholder="Qual será sua próxima leitura?">
+              <input class="container__label--campo" type="text" placeholder="Cadastre seu e-mail">
           </label>
         </div>
       </form>
@@ -340,34 +368,43 @@
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <script>
     const swiper = new Swiper('.swiper', {
-      spaceBetween: 10,
+      spaceBetween: 0,
       slidesPerView: 1.5,
       centeredSlides: true,
       observer: true,
       observeParents: true,
-      parallax:true,
-      simulateTouch:true,
+      parallax: true,
+      simulateTouch: true,
+      rewind: true,
       breakpoints: {
+        317: {
+          spaceBetween: 0,
+          slidesPerView: 1.60,
+        },
+        354: {
+          spaceBetween: 0,
+          slidesPerView: 1.85,
+        },
+        391: {
+          spaceBetween: 0,
+          slidesPerView: 2,
+        },
         428: {
-          spaceBetween: 10,
-          slidesPerView: 1.5,
+          spaceBetween: 0,
+          slidesPerView: 2.25,
         },
-        768: {
-          spaceBetween: 10,
-          slidesPerView: 2.5,
-        },
-        1024: {
-          spaceBetween: 10,
+        598: {
+          spaceBetween: 0,
           slidesPerView: 3,
         },
         1240: {
-          spaceBetween: 10,
-          slidesPerView: 2.25,
+          spaceBetween: 0,
+          slidesPerView: 1.75,
         },
-        1768: {
-          spaceBetween: 10,
-          slidesPerView: 3,
-        },
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
       },
       pagination: {
         el: '.swiper-pagination',

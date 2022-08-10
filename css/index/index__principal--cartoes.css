@@ -42,10 +42,13 @@
       }
     .cartao__divisao-primaria--imagem {
       width: 40%;
-      max-width: 162px;
+      max-width: 146px;
+      height: 40%;
+      max-height: 152px;
       box-sizing: border-box;
       align-self: center;
       margin-bottom: 3rem;
+      image-rendering: pixelated;
     }
   .cartao__divisao-secundaria {
     display: flex;
@@ -80,13 +83,14 @@
       text-decoration: none;
       background-color: var(--cor__fundo--destaque);
       width: 40%;
-      max-width: 162px;
+      max-width: 146px;
       box-sizing: border-box;
     }
     
 @media screen and (min-width: 428px) {
   .principal__cartao {
-    width: 90vw;
+    width: 100%;
+    max-width: 385px;
     margin: auto auto 2.5rem auto;
     padding: 2rem 1.5rem;
   }
@@ -102,8 +106,17 @@
   }      
 }
 @media screen and (min-width: 768px) {
+  .principal__cartao {
+    width: 100%;
+    max-width: 576px;
+  }
   .cartao__divisao-primaria--imagem {
+    min-width: 146px;
+    min-height: 152px;
     margin-bottom: 2rem;
+  }
+  .divisao-secundaria__saiba-mais {
+    min-width: 146px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -130,11 +143,17 @@
       margin-bottom: 1rem;
     }
 }
-@media screen and (min-width: 1240px) {
+@media screen and (min-width: 1280px) {
   .principal__cartao {
     display: none;
   }
   .cartao__divisao-primaria--imagem {
+    max-width: 33.33%;
+    max-height: none;
     margin-bottom: 2.5rem;
+  }
+  .divisao-secundaria__saiba-mais {
+    max-width: 33.33%;
+    max-height: 50%;
   }
 }

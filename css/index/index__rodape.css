@@ -1,35 +1,23 @@
 .rodape {
   background-color: var(--cor__fundo--padrao2);
-  padding: 2rem 1rem;
   font-size: 1.6rem;
   color: var(--cor__fonte--especial);
 }
   
   .rodape__divisor {
     border-top: 0.1rem solid var(--cor__fonte--submenu);
-    margin-bottom: 1rem;
+    margin: 0px;
   }
   
 @media screen and (min-width: 428px) {
-  .rodape__divisor {
-    margin-bottom: 2rem;
-  }
+
 }
 @media screen and (min-width: 768px) {
-  .rodape__divisor {
-    margin-bottom: 3rem;
-  }
+
 }
 @media screen and (min-width: 1024px) {
-  .rodape__divisor {
-    margin-bottom: 4rem;
-  }
+
 }
-@media screen and (min-width: 1240px) {
-  .rodape {
-    padding: 5rem 0rem 2.5rem 0rem;
-  }
-  .rodape__divisor {
-    margin-bottom: 5rem;
-  }
+@media screen and (min-width: 1280px) {
+  
 }

@@ -109,7 +109,7 @@
           margin: auto;
         }
 }
-@media screen and (min-width: 1240px) {
+@media screen and (min-width: 1280px) {
     .cabecalho__pesquisar {
         padding: 9rem 2rem;
     }
